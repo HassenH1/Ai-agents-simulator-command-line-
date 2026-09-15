@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent-city",
+  "version": "0.1.0",
+  "description": "Minimal CLI demo of an AI agent city: personas + memory + LLM-driven decisions",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "chalk": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
